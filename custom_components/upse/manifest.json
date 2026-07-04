@@ -1,0 +1,15 @@
+{
+  "domain": "upse",
+  "name": "UPS-E",
+  "version": "0.1.0",
+  "documentation": "https://github.com/alx-xlx/ha-upse",
+  "issue_tracker": "https://github.com/alx-xlx/ha-upse/issues",
+  "codeowners": [
+    "@alx-xlx"
+  ],
+  "requirements": [
+    "smbus2>=0.4.3"
+  ],
+  "config_flow": true,
+  "iot_class": "local_polling"
+}

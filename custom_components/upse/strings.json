@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "UPS-E",
+        "description": "Configure the I2C bus and address used by the UPS-E HAT.",
+        "data": {
+          "i2c_bus": "I2C bus",
+          "i2c_address": "I2C address"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "UPS-E is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "UPS-E options",
+        "data": {
+          "i2c_bus": "I2C bus",
+          "i2c_address": "I2C address"
+        }
+      }
+    }
+  }
+}
